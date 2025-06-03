@@ -19,6 +19,7 @@ public class Lwjgl3Launcher {
         configuration.setTitle("Bomberman");
         configuration.useVsync(true);
         configuration.setForegroundFPS(Lwjgl3ApplicationConfiguration.getDisplayMode().refreshRate + 1);
+        configuration.setForegroundFPS(100);
         configuration.setWindowedMode(1280, 720);
         configuration.setWindowIcon("libgdx128.png", "libgdx64.png", "libgdx32.png", "libgdx16.png");
         return configuration;
